@@ -304,6 +304,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.Pedoman p {
+  text-align: justify;
+  /* margin-bottom: 0rem; */
+  font-size: 1.65rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 .Pedoman .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
@@ -435,6 +443,28 @@ tr:hover td {
   text-decoration-line: underline;
   font-style: italic;
 }
+.subjudul-p {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-decoration-line: underline;
+  font-style: italic;
+}
+.subjudul-p1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration-line: underline;
+  font-style: italic;
+}
+
+.emodule .pembiasan .subjudul4 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  background-color: var(--primary1);
+}
 
 .subjudul2 {
   margin-top: 1rem;
@@ -452,7 +482,7 @@ tr:hover td {
   justify-content: center;
 }
 
-.emodule .row .emodulepics1,
+.emodulepics1,
 .emodulepics3 {
   text-align: center;
   padding-bottom: 0.5rem;
@@ -488,6 +518,17 @@ tr:hover td {
   margin-bottom: 10px;
 }
 
+.pembiasan ol,
+.llen {
+  padding-left: 30px;
+  text-align: justify;
+  /* margin-bottom: 0rem; */
+  font-size: 1.65rem;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 .desc1 {
   padding-right: 1px;
   margin-top: 5px;
@@ -514,7 +555,7 @@ tr:hover td {
   border-radius: 5px;
 }
 
-.video video {
+.video iframe {
   /* border-style: groove;
   border-color: darkgrey; */
   /* width: 1366px; */
@@ -532,8 +573,18 @@ tr:hover td {
   margin-left: 15px;
   margin-top: 10px;
 }
+.ccekung1 .cermincekung1 img {
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.ccekung1 .cermincekung2 img {
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+}
 
-.vids video {
+.vids iframe {
   float: left;
   margin-right: 15px;
 }
@@ -567,6 +618,12 @@ tr:hover td {
 .reflect {
   background-color: var(--primary);
 }
+.lup {
+  background-color: var(--primary1);
+}
+.lup1 {
+  background-color: var(--primary);
+}
 
 .attention {
   background-color: var(--primary1);
@@ -590,6 +647,11 @@ tr:hover td {
   background-color: var(--primary);
   text-align: center;
 }
+.endDat2 {
+  margin-top: 5px;
+  background-color: var(--primary1);
+  text-align: center;
+}
 
 .explain3 span {
   background-color: var(--primary);
@@ -607,6 +669,7 @@ tr:hover td {
   text-align: center;
   margin-top: 10px;
 }
+
 .nomor1 h3 {
   background-color: var(--primary);
   text-align: center;
@@ -623,6 +686,11 @@ tr:hover td {
 /* .emodulepics1 .emodulepics-title1 {
   margin: 1rem auto 1.5rem;
 } */
+
+.llen .formed-c1 .formed114 h3 {
+  font-size: 1.2rem;
+  line-height: 0;
+}
 
 .emodule .row .gelombang .check {
   background-color: var(--primary);
@@ -656,7 +724,8 @@ tr:hover td {
 .wavefront,
 .formed,
 .formed-c,
-.explain {
+.explain,
+.formed-c1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -713,6 +782,19 @@ tr:hover td {
   border-style: groove;
   margin-top: 5px;
 }
+.formed-c1 .formed114 img {
+  max-width: 320px;
+  border-radius: 10px;
+  border-color: darkgrey;
+  border-style: groove;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.formed-c1 {
+  margin-bottom: 10px;
+}
+
 .formed-c .formed12 img {
   max-width: 400px;
   height: 398px;
@@ -735,8 +817,15 @@ tr:hover td {
 .formed11 h3,
 .formed12 h3,
 .cermincekung h3,
-.formed113 h3 {
+.formed113 h3,
+.len-kon,
+.len-kon-vid {
   text-align: center;
+}
+
+.len-kon,
+.len-kon-vid {
+  font-size: 1rem;
 }
 
 .cekund p {
@@ -754,12 +843,37 @@ tr:hover td {
   justify-content: center;
   align-items: center;
 }
+.ccekung1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .ccekung .cermincekung img {
-  max-width: 420px;
+  max-width: 450px;
   border-radius: 10px;
   border-color: darkgrey;
   border-style: groove;
+}
+.ccekung1 .cermincekung1 img {
+  max-width: 240px;
+  max-height: 280px;
+  border-radius: 10px;
+  border-color: darkgrey;
+  border-style: groove;
+}
+.ccekung1 .cermincekung2 img {
+  max-width: 250px;
+  max-height: 280px;
+  border-radius: 10px;
+  border-color: darkgrey;
+  border-style: groove;
+}
+
+.llen .lensing {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .cekung-2 .cerminbola img {
@@ -767,6 +881,17 @@ tr:hover td {
   border-radius: 10px;
   border-color: darkgrey;
   border-style: groove;
+}
+
+.pembiasan .snell {
+  background-color: var(--primary);
+  text-align: center;
+  margin-top: 10px;
+}
+.pembiasan .snell1 {
+  background-color: var(--primary1);
+  text-align: center;
+  margin-top: 10px;
 }
 
 .emodule .form {
@@ -856,12 +981,39 @@ tr:hover td {
   margin-bottom: 1rem;
 }
 .simulasi p {
-  text-align: center;
-  max-width: 30rem;
+  text-align: justify;
+  font-size: 1.65rem;
   margin: auto;
   font-weight: 200;
   line-height: 1.6;
 }
+
+.emodule p {
+  text-align: justify;
+  /* margin-bottom: 0rem; */
+  font-size: 1.65rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.simulasi ol {
+  padding-left: 30px;
+  text-align: justify;
+  /* margin-bottom: 0rem; */
+  font-size: 1.65rem;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.simulasi .subjudul5 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  background-color: var(--primary);
+}
+
 .simulasi .row {
   display: flex;
   margin-top: 2rem;
@@ -876,12 +1028,24 @@ tr:hover td {
 }
 .interactive,
 .interactive2,
-.interactive3 {
+.interactive3,
+.interactive4,
+.interactive5,
+.interactive6,
+.interactive7,
+.interactive8,
+.interactive9 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.javalab1 {
+.javalab1,
+.javalab4,
+.javalab5,
+.javalab6,
+.javalab7,
+.javalab8,
+.javalab9 {
   width: 100%;
   height: 500px; /* Adjusted height */
   object-fit: cover; /* Ensures the content fills the container without stretching */
@@ -911,8 +1075,11 @@ tr:hover td {
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
 }
-#elabBtn {
-  /* margin-top: 1rem; */
+#elabBtn,
+#elabBtn5,
+#elabBtn7,
+#elabBtn9 {
+  margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.4rem;
@@ -933,7 +1100,10 @@ tr:hover td {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   cursor: pointer;
 }
-#elabBtn2 {
+#elabBtn2,
+#elabBtn4,
+#elabBtn6,
+#elabBtn8 {
   margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -944,7 +1114,10 @@ tr:hover td {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   cursor: pointer;
 }
-#elabBtn:hover {
+#elabBtn:hover,
+#elabBtn5:hover,
+#elabBtn7:hover,
+#elabBtn9:hover {
   background-color: var(--primary);
   padding: 2%;
   /* width: 100%; */
@@ -970,8 +1143,10 @@ tr:hover td {
   font-size: 1.4rem;
   color: var(--primary1);
 }
-#elabBtn,
-#elabBtn2:hover {
+#elabBtn2:hover,
+#elabBtn4:hover,
+#elabBtn6:hover,
+#elabBtn8:hover {
   background-color: var(--primary1);
   padding: 2%;
   /* width: 100%; */
@@ -986,7 +1161,13 @@ tr:hover td {
 }
 #closeBtn,
 #closeBtn2,
-#closeBtn3 {
+#closeBtn3,
+#closeBtn4,
+#closeBtn5,
+#closeBtn6,
+#closeBtn7,
+#closeBtn8,
+#closeBtn9 {
   margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -1010,21 +1191,10 @@ tr:hover td {
   font-size: 1.4rem;
   color: var(--primary1);
 }
-#closeBtn3:hover {
-  background-color: var(--primary);
-  padding: 2%;
-  /* width: 100%; */
-  /*  margin-left: 20px; */
-  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  border-radius: 40px;
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.4rem;
-  color: var(--primary1);
-}
-#closeBtn,
-#closeBtn2:hover {
+#closeBtn3:hover,
+#closeBtn5:hover,
+#closeBtn7:hover,
+#closeBtn9:hover {
   background-color: var(--primary1);
   padding: 2%;
   /* width: 100%; */
@@ -1038,8 +1208,28 @@ tr:hover td {
   color: var(--primary);
 }
 
-.kesimpulan {
+#closeBtn2:hover,
+#closeBtn4:hover,
+#closeBtn6:hover,
+#closeBtn8:hover {
+  background-color: var(--primary1);
+  padding: 2%;
+  /* width: 100%; */
+  /*  margin-left: 20px; */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  border-radius: 40px;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: var(--primary);
+}
+
+.pembiasan .kesimpulan {
   margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .simulasi .form {
@@ -1242,6 +1432,9 @@ footer .credit a {
   .ccekung {
     flex-wrap: wrap;
   }
+  .ccekung1 {
+    flex-wrap: wrap;
+  }
 
   .emodulepics2 {
     flex-wrap: wrap;
@@ -1305,7 +1498,7 @@ footer .credit a {
   .formed-c .formed113 img {
     border-style: groove;
     border-color: darkgrey;
-    max-width: 450px;
+    max-width: 370px;
     margin: 0;
   }
 
@@ -1317,23 +1510,40 @@ footer .credit a {
     margin: 0;
   }
 
-  .vids video {
+  .vids iframe {
     max-width: 340px;
     margin-right: 0;
   }
-  .video video {
+  .video iframe {
     max-width: 340px;
     margin-right: 0;
   }
 
   .cekung-2 .cerminbola img {
-    max-width: 340px;
+    max-width: 370px;
     margin-right: 0;
+    margin-left: 0;
   }
 
   .ccekung .cermincekung img {
-    max-width: 340px;
+    max-width: 370px;
     margin-right: 0;
+    margin-left: 0;
+  }
+  .ccekung1 .cermincekung1 img {
+    max-width: 370px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .ccekung1 .cermincekung2 img {
+    max-width: 370px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .llen .ccekung .cermincekung img {
+    max-width: 340px;
+    margin-left: 0;
   }
 }
 /* Mobile Phone */
